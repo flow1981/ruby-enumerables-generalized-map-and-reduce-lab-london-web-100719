@@ -27,7 +27,7 @@ def reduce(source_array, starting_value=0)
     new=yield(new, element);
     i+=1;
   end
-
+  puts new
   new
   
 end
