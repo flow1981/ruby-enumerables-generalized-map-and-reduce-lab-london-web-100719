@@ -24,7 +24,7 @@ def reduce(source_array, starting_value=0)
  
   while i < source_array.length do
     element=source_array[i];
-    yield (new, element);
+    yield(new, element);
     i+=1;
   end
 
