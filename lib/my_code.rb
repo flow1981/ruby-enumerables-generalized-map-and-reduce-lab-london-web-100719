@@ -20,7 +20,7 @@ end
 # source_array = [ false, nil, nil, nil, true]
 # expect(reduce(source_array){|memo, n| memo || n}).to eq(true)
 
-def reduce(source_array, starting_value=true)
+def reduce(source_array, starting_value=0)
  
   i=0;
   new = starting_value;
