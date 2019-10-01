@@ -30,5 +30,5 @@ def reduce(source_array, starting_value=0)
     new=yield(new, element);
     i+=1;
   end
-  if (new==0)? true : new)
+  if (new==0)? true : new;
 end
