@@ -25,10 +25,10 @@ def reduce(source_array, starting_value=0)
   while i < source_array.length do
     element=source_array[i];
     i+=1;
-    yield (element)
+    yield (new, element)
   end
 
-expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
+# expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
 
 #output = source_array.reduce(starting_point) {|result, element| result+=element};
   output
