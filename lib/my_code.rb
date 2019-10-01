@@ -22,11 +22,12 @@ def reduce(source_array, starting_value=0)
   i=0;
   new = starting_value;
  
-  while i < source_array.length do
+  while i < source_array.length
     element=source_array[i];
     yield(new, element);
     i+=1;
   end
 
   new
+  
 end
